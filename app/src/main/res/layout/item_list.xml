@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#F1FF69">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="10"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/txtInfor"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Doraemon"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_weight="8"/>
+        <ImageView
+            android:id="@+id/imvEdit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_edit_24"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/imvDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_delete_24"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
